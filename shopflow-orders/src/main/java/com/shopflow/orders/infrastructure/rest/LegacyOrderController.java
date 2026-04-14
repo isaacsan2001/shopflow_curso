@@ -109,5 +109,7 @@ public class LegacyOrderController {
     @PutMapping("/{id}/cancel")
     public ResponseEntity<?> cancelOrder(@PathVariable String id) {
         return ResponseEntity.ok("Order " + id + " cancelled");
+
+        //prueba
     }
 }
